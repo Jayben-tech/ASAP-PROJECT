@@ -1,0 +1,128 @@
+/*sign in css*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+}
+.sign-in{
+    border: 50px;
+    width: 30%;
+    height: 100vh;
+}
+form{
+    box-sizing: border-box;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+    height: 100vh;
+    position: relative;
+}
+
+.sign-in h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 1px;
+    position: relative;
+    margin-top: 150px;
+}
+input{
+    height: 60px;
+    border-radius: 8px;
+    padding: 0px 20px;
+}
+button{
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    background-color: #ff8a00;
+    border: none;
+    cursor: pointer;
+    gap: 10px;
+}
+.sign-in a{
+    text-decoration: none;
+}
+.home-content{
+    color:white;
+    background-image: url(./asset/images/sign\ in.png.png);
+    background-size: cover;
+    width: 70%;
+    height:100vh;
+}
+img{
+    padding: 0px 40px; 
+    position: fixed;
+    top: 20px;
+}
+.write-up{
+    position:fixed;
+    padding: 0px 50px;
+    top: 50%;
+    background-color: rgb(228, 222, 222);
+    border-radius: 10px;
+    border: 50px;
+    margin-top: 300px;
+}
+/*sign up css*/
+.sign-up{
+    border: 50px;
+    width: 30%;
+    height: 100vh;
+}
+.sign-up h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 1px;
+    position: relative;
+    margin-top: 150px;
+}
+.sign-up a{
+    text-decoration: none;
+}
+.sign-up-right{
+    color:white;
+    background-image: url(./asset/images/sign\ up.png.png);
+    background-size: cover;
+    width: 70%;
+    height:100vh;
+}
+.setup input{
+    display: flex;
+}
+/*forget password*/
+.password{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: none;
+    width: 50%;
+}
+/*profile*/
+.profile{
+    border: 50px;
+    width: 30%;
+    height: 100vh;
+   
+}
+.side{
+    color:white;
+    background-image: url(./asset/images/profile\ setup.png.png);
+    background-size: cover;
+    width: 70%;
+    height:100vh;
+}
+.profile h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 1px;
+    position: relative;
+    margin-top: 100px;
+}
